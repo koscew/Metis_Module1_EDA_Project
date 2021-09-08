@@ -3,9 +3,8 @@ Chien Yuan Chang
 #### Question/need:
 We're going to identify the busiest control areas and hours among MTA stations in New York City with the highest entires and exits between March and May for the client, WomenTechWomenYes (WTWY), to place street teams at entrances to subway stations to promote their gala at the beginning of the summer to fill the event space with individuals passionate about increasing the participation of women in technology, and also to concurrently build awareness and reach efficiently.
 
->
-* What is the framing question of your analysis, or the purpose of the model/system you plan to build? 
-* Who benefits from exploring this question or building this model/system?
+>* What is the framing question of your analysis, or the purpose of the model/system you plan to build? 
+>* Who benefits from exploring this question or building this model/system?
 
 #### Data Description:
 * Dataset: Using python pandas to obtain public [MTA turnstile data](http://web.mta.info/developers/turnstile.html) to ingest the raw data from 3/14/2021 to 6/14/2021.
@@ -25,9 +24,8 @@ TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,INTERGER,INTERGER
   * ENTRIES: The cumulative entry register value for a device
   * EXIST: The cumulative exit register value for a device
 
->
-* What dataset(s) do you plan to use, and how will you obtain the data?
-* What is an individual sample/unit of analysis in this project? What characteristics/features do you expect to work with?
+>* What dataset(s) do you plan to use, and how will you obtain the data?
+>* What is an individual sample/unit of analysis in this project? What characteristics/features do you expect to work with?
 
 #### Tools:
 * Pandas for ingesting the raw data from [MTA turnstile data](http://web.mta.info/developers/turnstile.html) into csv file
@@ -37,13 +35,11 @@ TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,TEXT,INTERGER,INTERGER
 * Python matplotlib and seaborn for data visualization
 * Other Python libraries if needed
 
->
-* How do you intend to meet the tools requirement of the project? 
-* Are you planning in advance to need or use additional tools beyond those required?
+>* How do you intend to meet the tools requirement of the project? 
+>* Are you planning in advance to need or use additional tools beyond those required?
 
 #### MVP Goal:
 * Top 10 stations with the highest sum of entires and exits
 * The hours with the sum of entires and exits 
 
->
-* What would a minimum viable product (MVP) look like for this project?
+>* What would a minimum viable product (MVP) look like for this project?
