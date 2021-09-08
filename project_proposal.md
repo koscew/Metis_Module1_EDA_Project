@@ -7,7 +7,7 @@ We're going to identify the busiest control areas and hours among MTA stations i
 >* Who benefits from exploring this question or building this model/system?
 
 #### Data Description:
-* Dataset: Using python pandas to obtain public [MTA turnstile data](http://web.mta.info/developers/turnstile.html) to ingest the raw data from 3/01/2021 to 5/31/2021.
+* Dataset: Using python pandas to obtain public [MTA turnstile data](http://web.mta.info/developers/turnstile.html) to ingest the raw data from 2/27/2021 to 6/4/2021.
 
 * An individual sample/unit (total 11 columns):
 C/A,UNIT,SCP,STATION,LINENAME,DIVISION,DATE,TIME,DESC,ENTRIES,EXITS  
