@@ -1,7 +1,7 @@
 ### Project Proposal of EDA project
 Chien Yuan Chang
 #### Question/need:
-We're going to identify the busiest control areas and hours among MTA stations in New York City with the highest entires and exits between March and May in 2021 for the client, WomenTechWomenYes (WTWY), to place street teams at entrances to subway stations to promote their gala at the beginning of the summer to fill the event space with individuals passionate about increasing the participation of women in technology, and also to concurrently build awareness and reach efficiently.
+We're going to identify the busiest subway entrances and hours among MTA stations in New York City with the highest entires and exits between March and May in 2021 for the client, WomenTechWomenYes (WTWY), to place street teams at entrances to subway stations to promote their gala at the beginning of the summer to fill the event space with individuals passionate about increasing the participation of women in technology, and also to concurrently build awareness and reach efficiently.
 
 >* What is the framing question of your analysis, or the purpose of the model/system you plan to build? 
 >* Who benefits from exploring this question or building this model/system?
