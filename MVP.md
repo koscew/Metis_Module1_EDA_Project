@@ -7,7 +7,7 @@ To start exploring this goal, I used SQLite3 and Python SQLAlchemy and Pandas to
 
 ![Top 10 Busiest Subway Stations](images/top10_avg_daily_visit_staition.png)
 
-* The above figure of the "Top 10 Busiest Subway Stations" shows the top 10 stations with the highest daily average visits including both entires and exits between March and May in 2021. The 34 Street Penn Station had the highest traffic, followed by 34th Street–Herald Square Station and  86th Street Station. These busiest stations will be the priorities to go. 
+* The above figure of the "Top 10 Busiest Subway Stations" shows the top 10 stations with the highest daily average visits including both entires and exits between March and May in 2021. The 34th Street–Herald Square Station had the highest traffic, followed by Grand Central–42nd Street Station and 14th Street–Union Square station. These busiest stations will be the priorities to go. 
 
 ![Average Visits by Day](images/avg_daily_visit_day.png)
 
