@@ -19,3 +19,6 @@ This is the first project of Metis Data Science Bootcamp. We're going to utilize
 
 [Charts](images/)
 ***
+*Bonus*
+![](images/time_treemap.png)
+![](images/ca_treemap.png)
