@@ -8,7 +8,7 @@ The goal of this project is to identify the busiest entrances and hours among MT
 This project was initiated from the email from WTWY to address their needs to place street teams at entrances to subway stations to outreach to individuals passionate about increasing the participation of women in technology to fill their event space at the beginning of the summer, and also to concurrently build awareness and reach efficiently. The [MTA turnstile data](http://web.mta.info/developers/turnstile.html) is public on MTA website with the data of the entry/exit register values for one turnstile at control area at certain time and date. The data between March and May in 2021 was ingested into local database, and Exploratory Data Analysis (EDA) would enable us to identify the busiest control areas by hours and days of the week among MTA stations in New York with the highest sum of entires and exits between March and May in 2021 and provide WTWY a schedule to put their teams at which control areas on which days at what times.
 
 ## Data
-The dataset between 3/1/2021 and 5/31/2021 contains 2,747,757 rows with 11 features for each, 6 of which are about the location of the turnstiles, 2 of which are about the date and time, and 2 of which are the entry and the exit register values for one turnstile. 9 of 11 features were used for EDA. We didn't do the analysis on division level which area was too large. Every control area had a unique control area number with only one remote unit number so the features of remote unit numbers and divisions were not selected. The features of station names and linenames were combined into a new feature to present the stations without same station names at different locations. The 
+The dataset between 3/1/2021 and 5/31/2021 contains 2,747,757 rows with 11 features for each, 6 of which are about the location of the turnstiles, 2 of which are about the date and time, and 2 of which are the entry and the exit register values for one turnstile. 9 of 11 features were used for EDA. We didn't do the analysis on division level which area was too large. Every control area had a unique control area number with only one remote unit number so the features of remote unit numbers and divisions were not selected. The features of station names and linenames were combined into a new feature to present the stations without same station names at different locations. 
 
 
 ## Algorithms
@@ -20,7 +20,7 @@ The dataset between 3/1/2021 and 5/31/2021 contains 2,747,757 rows with 11 featu
 3. Combining and converting date and time features into time series data
 4. Calculating the difference of the entry and the exit register values from previous register values which were mostly audited every 4 hours to get the features of the numbers of entires and exits at the periods
 5. Removing the outliers by the features of the numbers of entires and exits at the periods to reduce the effect from incorrect data entires
-6. Summing the the numbers of entires and exits at the periods to get the feature of the sum of entires and exits at the periods
+6. Summing the numbers of entires and exits at the periods to get the feature of the sum of entires and exits at the periods
 7. Combining the features of station names and linenames into a new feature to present the stations to distinguish different stations shared the same stations names
 8. Interpreting time series to the features of time periods (Late Night, Early Morning, Morning, Afternoon, Evening, Night), day of the week and weekday/weekend.
 
