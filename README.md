@@ -22,7 +22,7 @@ This is the first project of Metis Data Science Bootcamp. We're going to utilize
 <details>
   <summary>Bonus</summary>
   
-![](images/time_treemap.png)
 ![](images/ca_treemap.png)
+![](images/time_treemap.png)
 
 </details>
