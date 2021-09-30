@@ -8,7 +8,7 @@ This is the first project of Metis Data Science Bootcamp. We're going to utilize
 ***
 [MVP](mvp.md)
 ***
-[Presentation Slides](final_presentation.pdf)
+[Presentation Slides](final_presentation.pdf) ([Script](presentation_script.md))
 
 [Project Writeup](project_writeup.md)
 
