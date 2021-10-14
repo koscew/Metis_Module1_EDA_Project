@@ -5,7 +5,7 @@ This is the first project of Metis Data Science Bootcamp. We're going to utilize
 
 
 ***
-[Presentation Slides](final_presentation.pdf) ([Script](presentation_script.md))
+[Presentation Slides](final_presentation.pdf)
 
 [Project Writeup](project_writeup.md)
 
